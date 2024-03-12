@@ -1,0 +1,34 @@
+.headerWrapper {
+  margin-top: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.searchWrapper input {
+  padding: 5px;
+}
+.searchWrapper select {
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.searchWrapper button {
+  padding: 5px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 5px;
+  color: orange;
+}
+.searchWrapper button:hover {
+  background-color: orangered;
+  color: black;
+}

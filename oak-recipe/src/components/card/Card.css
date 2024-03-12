@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.cardWrapper {
+  width: 150px;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 10px;
+  color: orange;
+}
+.cardWrapper img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cardWrapper button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+.cardWrapper button:hover {
+  background-color: red;
+  color: orange;
+}

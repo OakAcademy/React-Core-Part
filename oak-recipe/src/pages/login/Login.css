@@ -1,0 +1,42 @@
+.loginWrapper {
+  height: 100vh;
+  background-image: url("https://picsum.photos/1600/900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formWrapper {
+  border: 1px solid red;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 160, 160, 0.5);
+}
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.formWrapper form button {
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 5rem;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.formWrapper form button:hover {
+  background-color: green;
+}

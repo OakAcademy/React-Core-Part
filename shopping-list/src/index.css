@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.headerWrapper {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footerWrapper {
+  width: 100%;
+  padding: 16px;
+  border-top: 1px solid grey;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+.mainWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 32px;
+}
+.listWrapper {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.doneBtn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.doneBtn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.deleteBtn {
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.deleteBtn:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+.select {
+  padding: 3px;
+  border-radius: 5px;
+}
+.input {
+  width: 30%;
+  padding: 3px;
+}
+.addBtn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.addBtn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}

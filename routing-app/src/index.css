@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.active {
+  color: red;
+}
+.aboutWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.aboutInformation {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.coursesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  gap: 32px;
+}
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 15rem;
+}
+.contactWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: calc(100vh - 182px);
+}
+.formWrapper {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.errorWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.errorWrapper img {
+  width: 20rem;
+}
+.footerWrapper {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 32px;
+}
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  margin-bottom: 32px;
+  padding-top: 10px;
+}
+.navigasyonWrapper {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 75px;
+}
+
+.personnelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.cardWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.personnelCard {
+  width: 30%;
+  text-align: center;
+}
+.personWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+}
+.pathWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btnGroup a {
+  border: none;
+  padding: 5px;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.pathDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .navigasyonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
